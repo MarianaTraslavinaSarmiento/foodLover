@@ -1,3 +1,3 @@
 #Diseño
 
-![](https://github.com/MarianaTraslavinaSarmiento/proyectoPython/blob/main/img/Design.png)
+![](https://github.com/MarianaTraslavinaSarmiento/foodLover/blob/main/img/Design.png)
