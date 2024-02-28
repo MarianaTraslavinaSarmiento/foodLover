@@ -46,7 +46,7 @@
 .main{
 
     width: 100%;
-    height: 700px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,9 +58,9 @@
 
 .contenido{
 
-    background-color: #323239d5;
+    background-color: #323239e7;
     width: 100%;
-    height: 700px;
+    height: 900px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,14 +81,16 @@
 
     margin-bottom: 15px;
     color: #e58f00;
-    font-size: 30px
+    font-size: 30px;
+    width: 80%;
 }
 
 .parrafo{
 
     margin-top: 5px;
     color: #ffff;
-    font-size: 20px
+    font-size: 25px;
+    width: 80%;
 }
 
 .boton{
@@ -102,12 +104,63 @@
 .boton button{
 
     background-color: #e58f00;
-    width: 150px;
+    width: 170px;
     height: 65px;
     border: #e58f00;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
 
 
 }
+
+.main2{
+
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #17171e;
+
+    
+}
+
+.contenido2{
+
+    background-color: #17171e;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px
+}
+
+.texto2{
+
+    width: 35%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.titulo2{
+
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 30px;
+    width: 80%;
+}
+
+.parrafo2{
+
+    color: #ffff;
+    font-size: 40px;
+    width: 80%;
+}
+
+
+
