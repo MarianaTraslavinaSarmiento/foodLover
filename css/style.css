@@ -9,6 +9,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+
+
 .menu{
 
     width: 100%;
@@ -115,10 +118,16 @@
 
 }
 
+.imagen img{
+
+    width: 700px;
+    height: 600px;
+}
+
 .main2{
 
     width: 100%;
-    height: 900px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,7 +140,7 @@
 
     background-color: #17171e;
     width: 100%;
-    height: 900px;
+    height: 800px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,15 +190,33 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
-
+    margin-right: 200px;
+    margin-left: 200px;
 
 }
+
+
 .cajaGaleria  img {
 
     margin: 20px;
-    width: 470px;
-    height: 470px;
+    width: 400px;
+    height: 400px;
 
     
+}
+
+.cajaTitulo{
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff
+    
+}
+
+.cajaTitulo h1{
+
+    padding: 20px;
 }
