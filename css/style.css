@@ -1,5 +1,9 @@
 @import url(style.css);
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face {
     font-family: fuentePrincipal;
     src: url(/storage/fuentes/Roboto/static/RobotoSlab-Black.ttf); 
