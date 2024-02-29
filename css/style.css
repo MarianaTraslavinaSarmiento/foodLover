@@ -7,7 +7,7 @@ html {
 
 @font-face {
     font-family: fuentePrincipal;
-    src: url(/storage/fuentes/Roboto/static/RobotoSlab-Black.ttf); 
+    src: url(../storage/fuentes/Roboto/static/RobotoSlab-Black.ttf); 
 }
 
 *{
@@ -68,7 +68,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/storage/img/placeYourImageHere0.png");
+    background-image: url("../storage/img/placeYourImageHere0.png");
     background-repeat: no-repeat;
     background-size: cover
     
@@ -101,6 +101,7 @@ html {
     color: var(--color-primary);
     font-size: 30px;
     width: 80%;
+    line-height: 63px;
 }
 
 .parrafo{
@@ -242,6 +243,7 @@ html {
     text-align: center;
     color: #fff;
     font-size: 1.5em;
+
     
 }
 .main5{
@@ -259,7 +261,7 @@ html {
 .contenido5{
 
     background-color: #17171e;
-    background-image: url(/storage/img/placeYourImageHereOur0.png);
+    background-image: url(../storage/img/placeYourImageHereOur0.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -317,7 +319,8 @@ html {
     align-items: center;
     background-color: #17171e;
     flex-direction: column;
-
+    padding-top: 60px;
+    
 }
 
 
@@ -336,6 +339,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+
 
 }
 
@@ -455,4 +459,62 @@ html {
 .iconos svg{
 
     margin: 15px
+}
+
+body{
+
+    background-color: var(--color-secundary);
+
+}
+.main3{
+
+    width: 100%;
+    height: 100vh;
+    background-image: url(../storage/img/placeYourImageHereFood.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 260vh;
+    position: relative
+
+}
+
+.textoQuality{
+    top: 10px;
+    position: absolute;
+    width: 40vw;
+    height: 40vh; 
+    top: 500px;
+    left: 200px;
+    font-size: 2em;
+    color: var(--color-font);
+    
+
+}
+
+.main3 img:nth-child(3) {
+
+    height: 150vh;
+    position: absolute;
+    right: 0px;
+    margin-top: 880px;
+
+}
+
+.main3 img:nth-child(2) {
+
+    height: 95vh;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+.main3 img:nth-child(4) {
+
+    height: 93vh;
+    position: absolute;
+    left: 0px;
+    top: 1500px;
+
+
 }
